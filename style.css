@@ -10,13 +10,13 @@ h1{color: rgb(255, 255, 255);
     
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #926de9;
+        background-color: black;
         color: #012342;
         line-height: 1.6;
     }
     
     header {
-        background-color: #7a4be9;
+        background-color: black;
         color: rgb(0, 0, 0);
         padding: 2rem 0;
         text-align: center;
@@ -44,7 +44,7 @@ h1{color: rgb(255, 255, 255);
         height: 200px;
         border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
         object-fit: cover;
-        border: 3px solid #8c00ff;
+        border: 3px solid white;
     }
     
     .curiosidades {
