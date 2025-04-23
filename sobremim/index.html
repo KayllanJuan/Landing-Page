@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <link rel="shortcut icon" href="../img/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Sobre Mim</h1>
+    </header>
+
+    <main class="container">
+        <section class="bio">
+            <img src="../img/perfil_photo.png" alt="Foto de Perfil" class="perfil-img">
+            <div class="descricao">
+                <h2>Kayllan Juan Marcilio Aki</h2>
+                <p>Olá, meu nome é Kayllan! Atualmente tenho 20 anos e curso ciências da computação na UVV - Universidade de Vila Velha</p>
+            </div>
+        </section>
+        <section style="background-color: rgb(207, 239, 245)"class="curiosidades">
+            <h3>Sobre mim</h3>
+            <ul>
+                <p>Sou como dizem, uma pessoa de boa confiança, que transparece para os outros alto confiança e uma percepção de alguém em que elas possam confiar!
+             Estou sempre buscando o melhor resultado quando se trata em trabalho em equipe, motivando meus companheiros para chegarmos ao melhor resultado. </p> <br> <p>No futuro eu me vejo trabalhando para área de tecnologia - TI no geral, pretendo trabalhar para o exterior, produzindo diversos programas ou até mesmo jogos!</p>
+                
+            </ul>
+        </section>
+        <section class="curiosidades">
+            <h3>Curiosidades</h3>
+            <ul>
+                <li>Costumo ouvir rock, algumas músicas como: <button class="audio-btn" onclick="document.getElementById('musica').play()" title="Tocar música">
+                    <img src="../img/play.png" alt="Play" class="audio-icon">
+                </button>
+                <button class="audio-btn" onclick="document.getElementById('musica').pause()" title="Pausar música">
+                    <img src="../img/pause.png" alt="Pause" class="audio-icon">&nbsp;&nbsp;
+                </button>
+                </button>
+                <img src="../img/volume.png" alt="Volume" class="audio-icon volume-icon">&nbsp;
+            </button>
+                <input type="range" min="0" max="1" step="0.01" value="1"
+                       onchange="document.getElementById('musica').volume = this.value"
+                       class="volume-slider" title="Controle de volume"> - "Why'd You Only Call me When you're High" - Arctic Monkeys</li>
+                <li>Gosto de conteúdos relacionados a música ou entreterimento, como séries ou animes.</li>
+                <li>Minha série favorita é Dexter e meu anime favorito é JJBA.</li>
+                <li>Aprecio muito videogames também, espero um dia poder me aperfeiçoar na área por conta da programação!</li>
+            </ul>
+            <audio id="musica" src= "C:\Users\Usuario\Desktop\Landing page\audio\videoplayback.mp3.mp4"></audio>
+        </section>
+
+        <section class="links">
+            <h3>🔗 Acesso Rápido</h3>
+            <div class="icones">
+                <a href="../index.html" title="Menu"><img src="../img/Iconehome.png" alt="Sobremim"></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Kayllan Juan</p>
+    </footer>
+</body>
+</html>
